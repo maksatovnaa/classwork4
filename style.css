@@ -1,0 +1,76 @@
+
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(circle, rgb(201, 175, 210) 15%, rgb(180, 225, 227) 40%, rgb(195, 184, 171) 80%);
+   
+}
+ 
+.glavnyi{
+    display: flex;
+    background-color: rgba(234, 230, 225, 0.783);
+    flex-direction: row;
+    width: 600px;
+    height: 300px;
+    border: 8px white solid;
+    border-radius: 10px;
+    gap: 10px 20px;
+    padding: 30px;
+
+    
+}
+
+.get_started{
+    background-color: rgb(202, 143, 202);
+    border-radius: 5px ;
+    border: none;
+    padding: 5px;
+  
+}
+.upgrade_now{
+    background-color: rgb(128, 214, 220);
+    border-radius: 5px;
+    border: none;
+    padding:5px;
+}
+.try{
+    background-color: rgb(196, 162, 96);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mtext{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    margin-top: 30px;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+
+.dollar{
+    font-size: 20px; 
+}
+.number{
+    font-size: 40px;
+}
+.smalltext{
+    font-size: small;
+}
+p{
+    padding: 5px;
+}
